@@ -26,6 +26,48 @@ Android Notifications are used to inform users about important events even when 
 ## Scenario
 
 The application contains a button named **Show Notification**. When the user clicks the button, a notification is displayed. Tapping the notification opens the second activity.
+## 📁 Project Structure
+
+Notifications-exp-5/
+│
+├── app/
+│   ├── src/
+│   │   └── main/
+│   │       ├── java/
+│   │       │   └── [your_package_name]/
+│   │       │       ├── MainActivity.kt
+│   │       │       └── SecondActivity.kt
+│   │       │
+│   │       ├── res/
+│   │       │   ├── layout/
+│   │       │   │   ├── activity_main.xml
+│   │       │   │   └── activity_second.xml
+│   │       │   │
+│   │       │   ├── drawable/
+│   │       │   ├── mipmap/
+│   │       │   ├── values/
+│   │       │   └── xml/
+│   │       │
+│   │       └── AndroidManifest.xml
+│   │
+│   └── build.gradle.kts
+│
+├── screenshots/
+│   ├── activity_main_design.png
+│   ├── activity_second_design.png
+│   ├── Screenshot 2026-08-07 195734.png
+│   └── Screenshot 2026-08-07 195816.png
+│
+├── gradle/
+│   └── wrapper/
+│
+├── build.gradle.kts
+├── settings.gradle.kts
+├── gradle.properties
+├── gradlew
+├── gradlew.bat
+├── .gitignore
+└── README.md
 
 ---
 
